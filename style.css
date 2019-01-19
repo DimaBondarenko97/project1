@@ -1,0 +1,288 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+h1::after{
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  padding-top: 30px;
+  border-bottom: 3px solid #fcac45;
+}
+header{
+  width: 100%;
+  display: flex;
+  background-color: black;
+}
+.header_logo{
+  text-transform: uppercase;
+  color: white;
+  font-weight: 800;
+  font-size: 24px;
+  cursor:pointer;
+  margin-top: 56px;
+  margin-left: 12%;
+}
+nav{
+  margin-top: 56px;
+  margin-left: 29%;
+}
+.topnav a{
+  color: white;
+  text-align:center;
+  padding: 12px 16px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.topnav a:hover{
+  border-bottom: 3px solid #fcac45;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+main .main_welcome{
+  background: #000;
+  text-align: center;
+  padding: 200px 0 410px 0;
+  }
+main .main_welcome p{
+  color: #999999;
+  font-size: 20px;
+}
+main .main_welcome h1{
+  color: #999999;
+  font-size: 44px;
+}
+main .main_welcome h1::after{
+  display: none;
+}
+.mycompany{
+  color: #fcac45;
+}
+.wrapper{
+  width: 76%;
+  margin: 0 auto;
+}
+main .main_about{
+  display: flex;
+  padding: 100px 0 100px 0;
+
+}
+.about_right{
+  margin-left: 175px;
+}
+.about_right h1{
+  display: inline-block;
+  border-bottom: 3px solid #fcac45;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+.about_right h1::after{
+  display: none;
+}
+.about_right p{
+  margin: 30px 0 50px 0;
+  color:#6c6c6c;
+}
+.about_right li{
+  background: url(image/mark.png) 0px no-repeat;
+  padding-left: 25px;
+  color:#6c6c6c;
+}
+.main_team{
+  background: black;
+  text-align: center;
+  padding: 100px 0 165px 0;
+  color: white;
+}
+.main_team h1{
+  font-size: 44px;
+  padding-bottom: 30px;
+}
+.photo{
+  background: #d7d7d7;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+.tean_cards{
+  display: flex;
+}
+.card{
+  margin: 0 40px;
+}
+.name{
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+.position{
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+.about_position{
+  font-size: 14px;
+}
+.services_cards{
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 20px;
+}
+.main_services{
+  text-align: center;
+  padding: 100px 0 30px 0;
+}
+.main_services h1{
+  font-size: 44px;
+  padding-bottom: 30px;
+}
+.main_services p{
+  color: #6c6c6c;
+  margin-bottom: 100px;
+}
+.main_services h4{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.main_clients{
+  background: black;
+  padding: 100px 0 205px 0;
+  color: white;
+  text-align: center;
+}
+.main_clients h1{
+  font-size: 44px;
+  margin-bottom: 30px;
+}
+.main_clients img{
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.main_testimonials{
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 100px 0 170px 0;
+}
+.main_testimonials h1{
+  font-size: 44px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.main_testimonials p{
+margin-bottom: 50px;
+}
+.main_testimonials .testimonial{
+  text-transform: uppercase;
+}
+.main_work{
+  text-align: center;
+  padding: 100px 0 100px 0;
+}
+.main_work h1{
+  font-size: 44px;
+  margin-bottom: 30px;
+}
+.main_work p{
+  margin-bottom: 175px;
+  color: #6c6c6c;
+}
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery img{
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.gallery img:hover{
+  opacity: 0.9;
+}
+.contact_wrapper{
+  width: 753px;
+  margin: 0 auto;
+}
+input{
+  width: 360px;
+  height: 40px;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+input:first-of-type{
+  margin-right: 23px;
+}
+.red{
+  color: red;
+}
+.form_inputs{
+  display: flex;
+  margin-top: 40px;
+}
+
+textarea{
+  width: 100%;
+  height: 163px;
+}
+input, textarea{
+  border: 1px solid #999999;
+}
+.button_block{
+  display: flex;
+  justify-content: flex-end;
+}
+input[type="submit"]{
+  width: 165px;
+  height: 40px;
+  background: #fcac45;
+  color: white;
+  margin-right: 0;
+  margin-top: 20px;
+}
+.contact_form{
+  text-align: center;
+  margin: 100px 0 100px 0;
+}
+.contact_form h1{
+  font-size: 44px;
+  margin-bottom: 30px;
+}
+.contact_form p{
+  color: #6c6c6c;
+
+}
+form{
+  text-align: left;
+}
+footer{
+  width: 100%;
+  height: auto;
+  background: black;
+  padding: 30px 0 30px 0;
+
+}
+.social{
+  display: flex;
+  justify-content: center;
+}
+.social img{
+  margin-left: 12px;
+}
+.social img:hover{
+  opacity: 0.6;
+}
